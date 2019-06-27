@@ -1,0 +1,22 @@
+[gd_scene format=2]
+
+[node name="Confirmation_Diag" type="Control"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -512.0
+margin_top = -300.0
+margin_right = 512.0
+margin_bottom = 300.0
+
+[node name="ConfirmationDialog" type="ConfirmationDialog" parent="."]
+margin_left = 192.0
+margin_top = 254.0
+margin_right = 831.0
+margin_bottom = 346.0
+popup_exclusive = true
+window_title = "Bestätigen"
+dialog_text = "Diese Aktion setzt das Molekül zurück, wobei alle zusammenhängende Atome gelöscht werden...
+
+                                                                     Fortfahren?"

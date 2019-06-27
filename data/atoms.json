@@ -1,0 +1,41 @@
+{
+	"0":
+	{
+		"name": "Wasserstoff",
+		"symbol": "H",
+		"connections": "1",
+		"color": "ffdddddd"
+	},
+	
+	"1":
+	{
+		"name": "Kohlenstoff",
+		"symbol": "C",
+		"connections": "4",
+		"color": "ff101010"
+	},
+	
+	"2":
+	{
+		"name": "Sauerstoff",
+		"symbol": "O",
+		"connections": "2",
+		"color": "ffe74e4e"
+	},
+	
+	"3":
+	{
+		"name": "Stickstoff",
+		"symbol": "N",
+		"connections": "3",
+		"color": "ff4e4ee7"
+	},
+	
+	"4":
+	{
+		"name": "Chlor",
+		"symbol": "Cl",
+		"connections": "1",
+		"color": "ff4ee74e"
+	}
+}

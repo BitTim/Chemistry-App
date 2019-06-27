@@ -1,0 +1,7 @@
+[gd_scene format=2]
+
+[node name="Molekül" type="Spatial"]
+
+[node name="Atome" type="Spatial" parent="."]
+
+[node name="Holo" type="Spatial" parent="."]
