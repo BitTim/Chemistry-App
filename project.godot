@@ -15,9 +15,10 @@ _global_script_class_icons={
 
 [application]
 
-config/name="Teilchenbaukasten"
+config/name="Moleculex"
 run/main_scene="res://scenes/molecules.tscn"
 boot_splash/image="res://assets/misc/Bit Tim Coding Splash Screen.png"
+boot_splash/bg_color=Color( 0.337255, 0.0470588, 0.0745098, 1 )
 config/icon="res://icon.png"
 
 [display]

@@ -44,16 +44,81 @@ func init(type, id):
 		
 		if i > 0:
 			if i == 1:
-				atom_connectors[i].rotate_z(deg2rad(120))
+				atom_connectors[i].rotate(Vector3(0, 0, 1), deg2rad(120))
 			if i == 2:
-				atom_connectors[i].rotate_z(deg2rad(120))
-				atom_connectors[i].rotate_y(deg2rad(120))
-				pass
+				atom_connectors[i].rotate(Vector3(0, 0, 1), deg2rad(120))
+				atom_connectors[i].rotate(Vector3(0, 1, 0), deg2rad(120))
 			if i == 3:
-				atom_connectors[i].rotate_z(deg2rad(120))
-				atom_connectors[i].rotate_y(deg2rad(120))
-				atom_connectors[i].rotate_y(deg2rad(120))
-				pass
+				atom_connectors[i].rotate(Vector3(0, 0, 1), deg2rad(120))
+				atom_connectors[i].rotate(Vector3(0, 1, 0), deg2rad(120))
+				atom_connectors[i].rotate(Vector3(0, 1, 0), deg2rad(120))
+
+func _set_bond(bond_type, to_id):
+	var passes = 0
+	
+	if bond_type <= connections:
+		if atom_connections[active_connector] == -1 or atom_connections[active_connector] == to_id:
+			atom_connections[active_connector] = to_id
+			if bond_type > 1:
+				for c in connections:
+					c += active_connector
+					if c > connections - 1:
+						c -= connections - 1
+					
+					if (atom_connections[c] == -1 or atom_connections[c] == to_id) and c != active_connector:
+						passes += 1
+						atom_connections[c] = to_id
+						if passes == 1:
+							atom_connectors[c].transform = atom_connectors[active_connector].transform
+							atom_connectors[active_connector].translate_object_local(Vector3(-0.5, 0, 0))
+							atom_connectors[c].translate_object_local(Vector3(0.5, 0, 0))
+						if passes == 2:
+							atom_connectors[c].transform = atom_connectors[active_connector].transform
+							atom_connectors[active_connector].translate_object_local(Vector3(0.5, 0, 0))
+						
+						if (passes == 1 and bond_type < 3) or passes == 2:
+							break
+
+func _get_free_conns():
+	var free_conns = []
+	for c in atom_connections:
+		if c == -1:
+			free_conns.append(c)
+	return free_conns
+
+func _reset_bonds():
+	for c in atom_connections.size():
+		if atom_connections[c] == -1:
+			atom_connectors[c].transform.basis = Basis()
+			atom_connectors[c].transform.origin = Vector3()
+			
+			if c > 0:
+				if c == 1:
+					atom_connectors[c].rotate(Vector3(0, 0, 1), deg2rad(120))
+				if c == 2:
+					atom_connectors[c].rotate(Vector3(0, 0, 1), deg2rad(120))
+					atom_connectors[c].rotate(Vector3(0, 1, 0), deg2rad(120))
+				if c == 3:
+					atom_connectors[c].rotate(Vector3(0, 0, 1), deg2rad(120))
+					atom_connectors[c].rotate(Vector3(0, 1, 0), deg2rad(120))
+					atom_connectors[c].rotate(Vector3(0, 1, 0), deg2rad(120))
+
+func _reset_all_bonds():
+	for c in atom_connections.size():
+		atom_connections[c] = -1
+		atom_connectors[c].transform.basis = Basis()
+		atom_connectors[c].transform.origin = Vector3()
+		
+		if c > 0:
+			if c == 1:
+				atom_connectors[c].rotate(Vector3(0, 0, 1), deg2rad(120))
+			if c == 2:
+				atom_connectors[c].rotate(Vector3(0, 0, 1), deg2rad(120))
+				atom_connectors[c].rotate(Vector3(0, 1, 0), deg2rad(120))
+			if c == 3:
+				atom_connectors[c].rotate(Vector3(0, 0, 1), deg2rad(120))
+				atom_connectors[c].rotate(Vector3(0, 1, 0), deg2rad(120))
+				atom_connectors[c].rotate(Vector3(0, 1, 0), deg2rad(120))
 
 func _process(delta):
 	if !hide_outline and active and atom_id != -0x8FCF:

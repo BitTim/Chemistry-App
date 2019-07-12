@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 5da689c313, 2019-01-14"
+   sodipodi:docname="Logo.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="-265.01441"
+     inkscape:cy="575.87729"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="703"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#2c5aa0;stroke:none;stroke-width:0.26458332"
+       id="rect4729"
+       width="179.91667"
+       height="179.91667"
+       x="17.764881"
+       y="43.755951"
+       inkscape:export-filename="/home/tim/Coding/Godot/Teilchenbaukasten/icon.png"
+       inkscape:export-xdpi="282.35294"
+       inkscape:export-ydpi="282.35294" />
+    <circle
+       style="fill:#87de87;stroke:#87de87;stroke-width:0.26458332"
+       id="path26-1"
+       cx="236.32962"
+       cy="86.939728"
+       r="17.197916" />
+    <circle
+       style="fill:#87de87;stroke:#87de87;stroke-width:0.26458332"
+       id="path26-3-2"
+       cx="276.20612"
+       cy="116.98883"
+       r="17.197916" />
+    <circle
+       style="fill:#87de87;stroke:#87de87;stroke-width:0.26458332"
+       id="path26-6-7"
+       cx="347.26562"
+       cy="126.81622"
+       r="17.197916" />
+    <circle
+       style="fill:#87de87;stroke:#87de87;stroke-width:0.26458332"
+       id="path26-7-0"
+       cx="314.00372"
+       cy="88.26265"
+       r="17.197916" />
+    <circle
+       style="fill:#87de87;stroke:#87de87;stroke-width:0.26458332"
+       id="path26-5-9"
+       cx="292.83707"
+       cy="157.81027"
+       r="17.197916" />
+    <rect
+       style="fill:#87de87;stroke:#87de87;stroke-width:0.26458332"
+       id="rect61-3-3"
+       width="6.4255948"
+       height="37.419643"
+       x="244.84032"
+       y="-204.45901"
+       transform="rotate(56.413383)" />
+    <rect
+       style="fill:#87de87;stroke:#87de87;stroke-width:0.26458332"
+       id="rect61-5-6"
+       width="6.4255953"
+       height="37.419643"
+       x="189.56096"
+       y="229.49586"
+       transform="rotate(-25.099297)"
+       inkscape:transform-center-x="38.682592"
+       inkscape:transform-center-y="5.5967031" />
+    <rect
+       style="fill:#87de87;stroke:#87de87;stroke-width:0.26458332"
+       id="rect61-6-0"
+       width="6.4255953"
+       height="37.419643"
+       x="74.170837"
+       y="247.8051"
+       transform="rotate(-52.111121)" />
+    <rect
+       style="fill:#87de87;stroke:#87de87;stroke-width:0.26458332"
+       id="rect61-2-6"
+       width="6.4255953"
+       height="37.419643"
+       x="186.21683"
+       y="273.02695"
+       transform="rotate(-39.51789)" />
+    <rect
+       style="fill:#87de87;stroke:#87de87;stroke-width:0.26458332"
+       id="rect61-5-9-2"
+       width="6.4255953"
+       height="37.419643"
+       x="204.01021"
+       y="229.24913"
+       transform="rotate(-25.099297)"
+       inkscape:transform-center-x="38.682592"
+       inkscape:transform-center-y="5.5967031" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot176"
+       style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion178"><rect
+           id="rect180"
+           width="518.57141"
+           height="320"
+           x="130"
+           y="653.94824" /></flowRegion><flowPara
+         id="flowPara182"></flowPara></flowRoot>    <g
+       style="fill:#d7eef4;stroke:none"
+       id="g174"
+       transform="translate(1.6036172,22.45064)"
+       inkscape:export-filename="/home/tim/Coding/Godot/Teilchenbaukasten/icon.png"
+       inkscape:export-xdpi="282.35294"
+       inkscape:export-ydpi="282.35294">
+      <circle
+         r="17.197916"
+         cy="78.883736"
+         cx="51.918003"
+         id="path26"
+         style="fill:#d7eef4;stroke:none;stroke-width:0.26458332" />
+      <circle
+         r="17.197916"
+         cy="108.93284"
+         cx="91.794495"
+         id="path26-3"
+         style="fill:#d7eef4;stroke:none;stroke-width:0.26458332" />
+      <circle
+         r="17.197916"
+         cy="118.76023"
+         cx="162.854"
+         id="path26-6"
+         style="fill:#d7eef4;stroke:none;stroke-width:0.26458332" />
+      <circle
+         r="17.197916"
+         cy="80.206657"
+         cx="129.5921"
+         id="path26-7"
+         style="fill:#d7eef4;stroke:none;stroke-width:0.26458332" />
+      <circle
+         r="17.197916"
+         cy="149.75427"
+         cx="108.42544"
+         id="path26-5"
+         style="fill:#d7eef4;stroke:none;stroke-width:0.26458332" />
+      <rect
+         transform="rotate(56.413383)"
+         y="-55.291386"
+         x="136.11333"
+         height="37.419643"
+         width="6.4255953"
+         id="rect61-3"
+         style="fill:#d7eef4;stroke:none;stroke-width:0.26458332" />
+      <rect
+         inkscape:transform-center-y="5.5967031"
+         inkscape:transform-center-x="38.682592"
+         transform="rotate(-25.099296)"
+         y="143.97531"
+         x="25.979845"
+         height="37.419643"
+         width="6.4255953"
+         id="rect61-5"
+         style="fill:#d7eef4;stroke:none;stroke-width:0.26458332" />
+      <rect
+         transform="rotate(-52.111121)"
+         y="97.319397"
+         x="-32.724422"
+         height="37.419643"
+         width="6.4255953"
+         id="rect61-6"
+         style="fill:#d7eef4;stroke:none;stroke-width:0.26458332" />
+      <rect
+         transform="rotate(-39.51789)"
+         y="149.4677"
+         x="49.083103"
+         height="37.419643"
+         width="6.4255953"
+         id="rect61-2"
+         style="fill:#d7eef4;stroke:none;stroke-width:0.26458332" />
+      <rect
+         inkscape:transform-center-y="5.5967031"
+         inkscape:transform-center-x="38.682592"
+         transform="rotate(-25.099297)"
+         y="143.72858"
+         x="40.429104"
+         height="37.419643"
+         width="6.4255953"
+         id="rect61-5-9"
+         style="fill:#d7eef4;stroke:none;stroke-width:0.26458332" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#80ff80;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="233.82489"
+       y="217.64767"
+       id="text186-6"><tspan
+         sodipodi:role="line"
+         id="tspan184-1"
+         x="233.82489"
+         y="217.64767"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35.27777863px;font-family:Vision;-inkscape-font-specification:Vision;fill:#87de87;stroke-width:0.26458332">Moleculex</tspan></text>
+  </g>
+</svg>
